@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS SPECIFICITY</title>
+  </head>
+  <style>
+    /* 0 0 0 1 */
+    h1 {
+      color: blue;
+    }
+
+    /* 0 0 1 0 */
+    .header {
+      color: red;
+    }
+
+    /* 0 1 0 0 */
+    #header-id {
+      color: cyan;
+    }
+
+    .text {
+      color: green;
+    }
+  </style>
+  <body>
+    <h1 id="header-id" class="header" style="color: blueviolet">Header</h1>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio officiis
+      enim commodi vero nesciunt et tempore. Voluptatum quia error minus sint
+      porro architecto, vitae tenetur velit culpa commodi ducimus praesentium.
+      Quisquam quia nesciunt praesentium nulla consequatur sed blanditiis
+      repudiandae veniam! Possimus, maxime. Quas, iure maiores accusamus commodi
+      quam velit repellat aperiam et omnis impedit, aliquam recusandae
+      voluptatem molestias placeat. Fugiat. Voluptatem perspiciatis blanditiis
+      at sed atque quisquam, excepturi et, fugit mollitia optio a dicta aut
+      reiciendis animi quod eum natus eius molestiae doloremque non dolorem!
+      Deserunt veritatis molestiae nesciunt sint! Velit numquam praesentium
+      itaque provident exercitationem repellat labore cupiditate maiores
+      consectetur? Ad mollitia nisi quisquam officia fuga. Praesentium minima
+      debitis, enim suscipit molestiae rerum quaerat odio sequi odit temporibus
+      eum?
+    </p>
+
+    <b
+      >Specificity is all about which styles are applied to an HTML element when
+      there are conflicting or overlapping CSS rules</b
+    >
+    <small>0 0 0 0</small>
+    <small
+      >from right to left, first zero is all about generic selectors, second
+      zero is all about class selectors, third
+    </small>
+  </body>
+</html>
