@@ -1,24 +1,40 @@
-/* p {
-    font-size: 36px;
-} */
-
-/* a {
-    font-size: 24px;
-    color: blueviolet;
-} */
+* {
+    margin: 0;
+}
 
 h1 {
-    color: teal;
+    color: #008080;
 }
 
 #paragraph01 {
     font-size: 40px;
+    text-align: center;
 }
 
 .primary-link {
-    color: cyan;
+    color: #00ffff;
 }
 
 .primary-link:hover {
-    color: blueviolet;
+    color: #8a2be2;
+}
+
+.padding-demo {
+    /* padding: 15px; */
+    background-color: #ffc0cb;
+    border: 2px solid #000000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-demo {
+    border: 2px solid #0000ff;
+    text-align: center;
+}
+
+.relative-position {
+    position: relative;
+    background-color: goldenrod;
 }
