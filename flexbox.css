@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.red {
+    background-color: #d82d2d;
+    height: 200px;
+    color: #ffffff;
+}
+
+.item {
+    /* border: 1.5px solid black; */
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.footer {
+    justify-content: flex-end;
+}
