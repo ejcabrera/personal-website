@@ -4,12 +4,12 @@
 }
 .red {
     background-color: #d82d2d;
-    height: 200px;
+    height: 100px;
     color: #ffffff;
 }
 
 .item {
-    /* border: 1.5px solid black; */
+   /* border: 1.5px solid black;*/
     padding: 20px;
     margin: 15px 0;
 }
@@ -24,5 +24,25 @@
 }
 
 .footer {
-    justify-content: flex-end;
+    justify-content: flex-end; 
+}
+.main{
+    text-align: center;
+    height: 500px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: pink;
+    border: 1px solid black;
+    width: 25%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 50%;
 }
