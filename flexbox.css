@@ -20,7 +20,7 @@
 
 .header {
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .footer {
